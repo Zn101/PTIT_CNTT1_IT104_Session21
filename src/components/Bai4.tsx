@@ -17,39 +17,29 @@ export default function Bai4() {
   }, []);
 
   return (
-    <div className="relative inline-block text-left" ref={dropdownRef}>
+    <div className="dropdown position-relative" ref={dropdownRef}>
       <button
         onClick={() => setOpen(!open)}
-        className="flex items-center gap-2 px-4 py-2 bg-white border rounded-lg shadow-sm hover:bg-gray-50"
+        className="btn btn-light dropdown-toggle"
+        type="button"
       >
         Nguyễn Văn Nam
-        <svg
-          className={`w-4 h-4 transform transition-transform ${
-            open ? "rotate-180" : "rotate-0"
-          }`}
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-        </svg>
       </button>
-      {open && (
-        <div className="absolute right-0 mt-2 w-48 bg-white border rounded-lg">
-          <ul className="py-1">
-            <li className="px-4 py-2">
-              Cài đặt
-            </li>
-            <li className="px-4 py-2">
-              Đổi mật khẩu
-            </li>
-            <li className="px-4 py-2">
-              Đăng xuất
-            </li>
-          </ul>
-        </div>
-      )}
+
+      <ul
+        className={`dropdown-menu dropdown-menu-end ${open ? "show" : ""}`}
+      >
+        <li>
+          <button className="dropdown-item">Cài đặt</button>
+        </li>
+        <li>
+          <button className="dropdown-item">Đổi mật khẩu</button>
+        </li>
+        <li>
+          <button className="dropdown-item">Đăng xuất</button>
+        </li>
+      </ul>
     </div>
   );
 }
+
