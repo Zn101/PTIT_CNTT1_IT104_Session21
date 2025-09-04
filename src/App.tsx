@@ -6,8 +6,6 @@ import Bai3 from './components/Bai3'
 import Bai4 from './components/Bai4'
 import Bai5 from './components/Bai5'
 import Bai6 from './components/Bai6'
-import Bai7 from './components/Bai7'
-import Bai8 from './components/Bai8'
 export default class App extends Component {
   render() {
     const boxStyle: React.CSSProperties = {
@@ -24,8 +22,6 @@ export default class App extends Component {
         <div style={boxStyle}><Bai4 /></div>
         <div style={boxStyle}><Bai5 /></div>
         <div style={boxStyle}><Bai6 /></div>
-        <div style={boxStyle}><Bai7 /></div>
-        <div style={boxStyle}><Bai8 /></div>
       </div>
     )
   }

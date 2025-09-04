@@ -1,7 +1,17 @@
 export default function Bai6() {
   return (
-    <div className="w-[500px] h-[200px] overflow-auto">
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi laudantium amet, provident optio numquam eligendi nemo tempora mollitia sint cupiditate, nobis quod sed illum delectus, aspernatur et. Iste, illum cumque.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi laudantium amet, provident optio numquam eligendi nemo tempora mollitia sint cupiditate, nobis quod sed illum delectus, aspernatur et. Iste, illum cumque.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi laudantium amet, provident optio numquam eligendi nemo tempora mollitia sint cupiditate, nobis quod sed illum delectus, aspernatur et. Iste, illum cumque.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi laudantium amet, provident optio numquam eligendi nemo tempora mollitia sint cupiditate, nobis quod sed illum delectus, aspernatur et. Iste, illum cumque.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi laudantium amet, provident optio numquam eligendi nemo tempora mollitia sint cupiditate, nobis quod sed illum delectus, aspernatur et. Iste, illum cumque.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi laudantium amet, provident optio numquam eligendi nemo tempora mollitia sint cupiditate, nobis quod sed illum delectus, aspernatur et. Iste, illum cumque.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi laudantium amet, provident optio numquam eligendi nemo tempora mollitia sint cupiditate, nobis quod sed illum delectus, aspernatur et. Iste, illum cumque.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi laudantium amet, provident optio numquam eligendi nemo tempora mollitia sint cupiditate, nobis quod sed illum delectus, aspernatur et. Iste, illum cumque.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi laudantium amet, provident optio numquam eligendi nemo tempora mollitia sint cupiditate, nobis quod sed illum delectus, aspernatur et. Iste, illum cumque.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi laudantium amet, provident optio numquam eligendi nemo tempora mollitia sint cupiditate, nobis quod sed illum delectus, aspernatur et. Iste, illum cumque.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi laudantium amet, provident optio numquam eligendi nemo tempora mollitia sint cupiditate, nobis quod sed illum delectus, aspernatur et. Iste, illum cumque.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi laudantium amet, provident optio numquam eligendi nemo tempora mollitia sint cupiditate, nobis quod sed illum delectus, aspernatur et. Iste, illum cumque.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi laudantium amet, provident optio numquam eligendi nemo tempora mollitia sint cupiditate, nobis quod sed illum delectus, aspernatur et. Iste, illum cumque.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi laudantium amet, provident optio numquam eligendi nemo tempora mollitia sint cupiditate, nobis quod sed illum delectus, aspernatur et. Iste, illum cumque.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi laudantium amet, provident optio numquam eligendi nemo tempora mollitia sint cupiditate, nobis quod sed illum delectus, aspernatur et. Iste, illum cumque.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi laudantium amet, provident optio numquam eligendi nemo tempora mollitia sint cupiditate, nobis quod sed illum delectus, aspernatur et. Iste, illum cumque.
+    <div>
+      <div className="spinner-border text-danger" role="status">
+        <span className="visually-hidden">Loading...</span>
+      </div>
+      <br />
+      <div className="spinner-border text-success" role="status">
+        <span className="visually-hidden">Loading...</span>
+      </div>
+      <br />
+      <div className="spinner-border text-primary" role="status">
+        <span className="visually-hidden">Loading...</span>
+      </div>
     </div>
-  )
+  );
 }

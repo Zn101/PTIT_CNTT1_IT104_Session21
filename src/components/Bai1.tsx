@@ -1,7 +1,13 @@
 export default function Bai1() {
   return (
-    <div>
-      <h1 className="text-red-600 text-[32px]">Đây là tiêu đề 1</h1>
+    <div className="d-flex flex-wrap gap-2">
+      <button className="btn btn-primary">Lưu</button>
+      <button className="btn btn-secondary">Hủy</button>
+      <button className="btn btn-success">Thành công</button>
+      <button className="btn btn-warning">Cảnh báo</button>
+      <button className="btn btn-danger">Báo lỗi</button>
+      <button className="btn btn-info">Thông tin</button>
+      <button className="btn btn-link">Đường dẫn</button>
     </div>
-  )
+  );
 }
